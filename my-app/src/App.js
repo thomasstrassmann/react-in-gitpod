@@ -11,12 +11,13 @@ import './App.css';
 // import RenderingLists from './components/RenderingLists';
 // import LifeCyclesCDM from './components/Lifecycles/LifeCyclesCDM';
 // import LifeCyclesCDU from './components/Lifecycles/LifeCyclesCDU';
-import LifeCyclesCWU from './components/Lifecycles/LifeCyclesCWU';
+// import LifeCyclesCWU from './components/Lifecycles/LifeCyclesCWU';
+import ControlledForm from './components/Forms/ControlledForm';
 
 function App() {
   return (
     <div className="App">
-      <LifeCyclesCWU />
+      <ControlledForm/>
     </div>
   );
 }
