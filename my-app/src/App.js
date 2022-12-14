@@ -13,12 +13,13 @@ import './App.css';
 // import LifeCyclesCDU from './components/Lifecycles/LifeCyclesCDU';
 // import LifeCyclesCWU from './components/Lifecycles/LifeCyclesCWU';
 // import ControlledForm from './components/Forms/ControlledForm';
-import UncontrolledForm from './components/Forms/UncontrolledForm';
+// import UncontrolledForm from './components/Forms/UncontrolledForm';
+import SearchBar from './components/Filter/SearchBar';
 
 function App() {
   return (
     <div className="App">
-      <UncontrolledForm/>
+      <SearchBar/>
     </div>
   );
 }
