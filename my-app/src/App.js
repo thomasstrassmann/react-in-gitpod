@@ -15,12 +15,13 @@ import './App.css';
 // import ControlledForm from './components/Forms/ControlledForm';
 // import UncontrolledForm from './components/Forms/UncontrolledForm';
 // import SearchBar from './components/Filter/SearchBar';
-import UseStateWithObjects from './components/Hooks/UseStateWithObjects';
+// import UseStateWithObjects from './components/Hooks/UseStateWithObjects';
+import HTTPRequests from './components/HTTPRequests/HTTPRequests';
 
 function App() {
   return (
     <div className="App">
-      <UseStateWithObjects/>
+      <HTTPRequests/>
     </div>
   );
 }
